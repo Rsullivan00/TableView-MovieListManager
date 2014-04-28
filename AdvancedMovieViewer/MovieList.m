@@ -1,13 +1,11 @@
 //
-//  FirstViewController.h
+//  MovieList.m
 //  AdvancedMovieViewer
 //
 //  Created by rick michael sullivan on 4/28/14.
 //  Copyright (c) 2014 Rick Sullivan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MovieList.h"
 
-@interface FirstViewController : UIViewController
-
-@end
+NSMutableArray *movieList;

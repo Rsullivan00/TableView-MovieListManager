@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631A5D3A190EDD2F00A40EBD /* MovieList.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A5D39190EDD2F00A40EBD /* MovieList.m */; };
 		636B3E19190ED40E00D8E391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636B3E18190ED40E00D8E391 /* UIKit.framework */; };
 		636B3E1B190ED40E00D8E391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636B3E1A190ED40E00D8E391 /* Foundation.framework */; };
 		636B3E1D190ED40E00D8E391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636B3E1C190ED40E00D8E391 /* CoreGraphics.framework */; };
@@ -17,10 +18,10 @@
 		636B3E2D190ED40F00D8E391 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E2C190ED40F00D8E391 /* Default@2x.png */; };
 		636B3E2F190ED40F00D8E391 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E2E190ED40F00D8E391 /* Default-568h@2x.png */; };
 		636B3E32190ED40F00D8E391 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E30190ED40F00D8E391 /* MainStoryboard.storyboard */; };
-		636B3E35190ED40F00D8E391 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3E34190ED40F00D8E391 /* FirstViewController.m */; };
+		636B3E35190ED40F00D8E391 /* MoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3E34190ED40F00D8E391 /* MoviesTableViewController.m */; };
 		636B3E37190ED40F00D8E391 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E36190ED40F00D8E391 /* first.png */; };
 		636B3E39190ED40F00D8E391 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E38190ED40F00D8E391 /* first@2x.png */; };
-		636B3E3C190ED40F00D8E391 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3E3B190ED40F00D8E391 /* SecondViewController.m */; };
+		636B3E3C190ED40F00D8E391 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3E3B190ED40F00D8E391 /* StatsViewController.m */; };
 		636B3E3E190ED40F00D8E391 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E3D190ED40F00D8E391 /* second.png */; };
 		636B3E40190ED40F00D8E391 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E3F190ED40F00D8E391 /* second@2x.png */; };
 		636B3E48190ED40F00D8E391 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636B3E47190ED40F00D8E391 /* SenTestingKit.framework */; };
@@ -28,6 +29,8 @@
 		636B3E4A190ED40F00D8E391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636B3E1A190ED40E00D8E391 /* Foundation.framework */; };
 		636B3E52190ED40F00D8E391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 636B3E50190ED40F00D8E391 /* InfoPlist.strings */; };
 		636B3E55190ED40F00D8E391 /* AdvancedMovieViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B3E54190ED40F00D8E391 /* AdvancedMovieViewerTests.m */; };
+		63DF3BA1190ED6AE0014539E /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF3BA0190ED6AE0014539E /* MovieViewController.m */; };
+		63DF3BA7190ED71C0014539E /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF3BA6190ED71C0014539E /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631A5D38190EDD2F00A40EBD /* MovieList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieList.h; sourceTree = "<group>"; };
+		631A5D39190EDD2F00A40EBD /* MovieList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieList.m; sourceTree = "<group>"; };
 		636B3E15190ED40E00D8E391 /* AdvancedMovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedMovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636B3E18190ED40E00D8E391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		636B3E1A190ED40E00D8E391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,12 +60,12 @@
 		636B3E2C190ED40F00D8E391 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		636B3E2E190ED40F00D8E391 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		636B3E31190ED40F00D8E391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		636B3E33190ED40F00D8E391 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		636B3E34190ED40F00D8E391 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		636B3E33190ED40F00D8E391 /* MoviesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewController.h; sourceTree = "<group>"; };
+		636B3E34190ED40F00D8E391 /* MoviesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewController.m; sourceTree = "<group>"; };
 		636B3E36190ED40F00D8E391 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		636B3E38190ED40F00D8E391 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		636B3E3A190ED40F00D8E391 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		636B3E3B190ED40F00D8E391 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		636B3E3A190ED40F00D8E391 /* StatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		636B3E3B190ED40F00D8E391 /* StatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
 		636B3E3D190ED40F00D8E391 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		636B3E3F190ED40F00D8E391 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		636B3E46190ED40F00D8E391 /* AdvancedMovieViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedMovieViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +74,10 @@
 		636B3E51190ED40F00D8E391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		636B3E53190ED40F00D8E391 /* AdvancedMovieViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedMovieViewerTests.h; sourceTree = "<group>"; };
 		636B3E54190ED40F00D8E391 /* AdvancedMovieViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvancedMovieViewerTests.m; sourceTree = "<group>"; };
+		63DF3B9F190ED6AE0014539E /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		63DF3BA0190ED6AE0014539E /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		63DF3BA5190ED71C0014539E /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		63DF3BA6190ED71C0014539E /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,17 +137,11 @@
 		636B3E1E190ED40E00D8E391 /* AdvancedMovieViewer */ = {
 			isa = PBXGroup;
 			children = (
+				63DF3BA4190ED6CE0014539E /* Model */,
+				63DF3BA3190ED6C70014539E /* Controller */,
+				63DF3BA2190ED6C00014539E /* View */,
 				636B3E27190ED40F00D8E391 /* AppDelegate.h */,
 				636B3E28190ED40F00D8E391 /* AppDelegate.m */,
-				636B3E30190ED40F00D8E391 /* MainStoryboard.storyboard */,
-				636B3E33190ED40F00D8E391 /* FirstViewController.h */,
-				636B3E34190ED40F00D8E391 /* FirstViewController.m */,
-				636B3E36190ED40F00D8E391 /* first.png */,
-				636B3E38190ED40F00D8E391 /* first@2x.png */,
-				636B3E3A190ED40F00D8E391 /* SecondViewController.h */,
-				636B3E3B190ED40F00D8E391 /* SecondViewController.m */,
-				636B3E3D190ED40F00D8E391 /* second.png */,
-				636B3E3F190ED40F00D8E391 /* second@2x.png */,
 				636B3E1F190ED40F00D8E391 /* Supporting Files */,
 			);
 			path = AdvancedMovieViewer;
@@ -175,6 +178,42 @@
 				636B3E50190ED40F00D8E391 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63DF3BA2190ED6C00014539E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				636B3E30190ED40F00D8E391 /* MainStoryboard.storyboard */,
+				636B3E36190ED40F00D8E391 /* first.png */,
+				636B3E38190ED40F00D8E391 /* first@2x.png */,
+				636B3E3D190ED40F00D8E391 /* second.png */,
+				636B3E3F190ED40F00D8E391 /* second@2x.png */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		63DF3BA3190ED6C70014539E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				636B3E33190ED40F00D8E391 /* MoviesTableViewController.h */,
+				636B3E34190ED40F00D8E391 /* MoviesTableViewController.m */,
+				636B3E3A190ED40F00D8E391 /* StatsViewController.h */,
+				636B3E3B190ED40F00D8E391 /* StatsViewController.m */,
+				63DF3B9F190ED6AE0014539E /* MovieViewController.h */,
+				63DF3BA0190ED6AE0014539E /* MovieViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		63DF3BA4190ED6CE0014539E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63DF3BA5190ED71C0014539E /* Movie.h */,
+				63DF3BA6190ED71C0014539E /* Movie.m */,
+				631A5D38190EDD2F00A40EBD /* MovieList.h */,
+				631A5D39190EDD2F00A40EBD /* MovieList.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +332,11 @@
 			files = (
 				636B3E25190ED40F00D8E391 /* main.m in Sources */,
 				636B3E29190ED40F00D8E391 /* AppDelegate.m in Sources */,
-				636B3E35190ED40F00D8E391 /* FirstViewController.m in Sources */,
-				636B3E3C190ED40F00D8E391 /* SecondViewController.m in Sources */,
+				636B3E35190ED40F00D8E391 /* MoviesTableViewController.m in Sources */,
+				636B3E3C190ED40F00D8E391 /* StatsViewController.m in Sources */,
+				63DF3BA1190ED6AE0014539E /* MovieViewController.m in Sources */,
+				63DF3BA7190ED71C0014539E /* Movie.m in Sources */,
+				631A5D3A190EDD2F00A40EBD /* MovieList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +517,7 @@
 				636B3E5A190ED40F00D8E391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		636B3E5B190ED40F00D8E391 /* Build configuration list for PBXNativeTarget "AdvancedMovieViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +526,7 @@
 				636B3E5D190ED40F00D8E391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

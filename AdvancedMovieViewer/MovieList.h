@@ -1,13 +1,11 @@
 //
-//  SecondViewController.h
+//  MovieList.h
 //  AdvancedMovieViewer
 //
 //  Created by rick michael sullivan on 4/28/14.
 //  Copyright (c) 2014 Rick Sullivan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface SecondViewController : UIViewController
-
-@end
+extern NSMutableArray *movieList;

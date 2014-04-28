@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "MovieList.h"
+#import "Movie.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    movieList = [Movie defaultMovieList];
     return YES;
 }
 							
